@@ -8,6 +8,7 @@
 }
 
 
+
 body{
 	font-family: 'Saira', sans-serif;
 	transition-duration: .4s;
@@ -355,6 +356,10 @@ i.fa.fa-envelope-o {
 footer{
 	padding: 40px 0;
 	background: #F4F1EB;
+}
+
+footer img{
+	height: 40px;
 }
 
 footer p{

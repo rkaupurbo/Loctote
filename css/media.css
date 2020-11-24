@@ -12,6 +12,10 @@
 	    padding: 60px 0 40px;
 	}
 
+	footer img {
+    height: 37px;
+}
+
 }
 
 @media(max-width:1199px){
@@ -151,8 +155,12 @@
 	}
 
 	.navbar-collapse {
-    width: 14% !important;
-}
+	    width: 14% !important;
+	}
+
+	footer img {
+	    height: 30px;
+	}
 	
 }
 
@@ -302,6 +310,10 @@
 	    text-align: center;
 	    margin-bottom: 10px;
 	}
+
+	footer img {
+	    height: 26px;
+	}
 	
 }
 
@@ -362,6 +374,11 @@
 	.banner_section h1 {
 	    max-width: 257px;
 	    font-size: 22px;
+	}
+
+	footer img {
+	    height: auto;
+	    max-width: 100%;
 	}
 	
 }
