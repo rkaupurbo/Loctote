@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+		
+}
+
+
+
+body{
+	font-family: 'Saira', sans-serif;
+	transition-duration: .4s;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+ul, ol, li{
+	margin: 0;
+	padding: 0;
+}
+
+*:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    outline: none;
+}
+
+p{
+	margin: 0;
+}
+
+
+header {
+    padding: 0px 0;
+    background: #f3f0eb;
+}
+
+.top-header{
+	border-bottom: 1px solid #3333331a;
+}
+
+header .top-header a {
+    font-size: 14px;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.top-header i.fa {
+    font-size: 18px;
+    margin: 0px 5px;
+}
+
+header .form-control{
+	background: transparent;
+}
+
+
+
+select {
+    background: transparent;
+}
+
+
+
+
+
+header .form-control:hover{
+	background: transparent;
+}
+
+.bg-light {
+    background-color: transparent!important;
+    padding: 15px 0;
+}
+
+.navbar-collapse {
+    width: 42% !important;
+}
+
+.card_menu{
+	width: 42%;
+	justify-content: flex-end;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 20px;
+    position: relative;
+}
+
+.u-lin .nav-link:before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #333;
+    bottom: 0px;
+    left: -2px;
+    transition-duration: .4s;
+    opacity: 0;
+    
+}
+
+.u-lin li:hover .nav-link:before{
+    width: 75%;
+    opacity: 1;
+    
+}
+
+.card_menu .fa{
+	color: #333;
+	font-size: 20px;
+}
+
+.offer_section{
+	background: #333;
+	padding: 12px 0;
+}
+
+.offer_section h4 {
+    font-size: 14px;
+    color: #d4be84;
+    font-weight: 600;
+    margin: 0;
+}
+
+.banner_section {
+    background: #333 url(../img/banner.webp) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    background-blend-mode: overlay;
+}
+
+.banner_section h1{
+	color: #fff;
+	font-size: 32px;
+	font-weight: 400;
+
+}
+
+.product_section{
+	padding: 60px 0 35px;
+    background: #F4F1EB;
+    border-bottom: 1px solid #333;
+}
+
+.product_section .dropdown {
+    width: 55%;
+    border: 1px solid #333;
+    text-align: center;
+    background: transparent !important;
+    padding: 5px 10px;
+}
+
+ .products {
+    position: relative;
+}
+
+.sale {
+    display: inline-block;
+    background: #333;
+    padding: 3px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.under_button {
+    text-align: center;
+    width: 100%;
+    background: #333;
+    padding: 8px 0;
+    bottom: -5px;
+    position: absolute;
+    opacity: 0;
+    transition: .5s linear;
+}
+
+.prohover:hover .under_button{
+	bottom: 0;
+	opacity: 1;
+}
+
+.product_description img{
+	height: 25px;
+    margin: 0 3px;
+    padding: 2px 2px;
+    border: 1px solid #333;
+}
+
+.product_section h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.product_section .sale p{
+	color: #fff!important;
+	letter-spacing: 1px;
+    line-height: 1.4;
+    margin-bottom: 0!important;
+}
+
+.product_section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.product_description {
+    padding: 27px 0 0;
+}
+
+i.fa.fa-star {
+    color: #ffd200;
+}
+
+.ubutton{
+	color: #fff;
+}
+
+.ubutton:hover{
+	color: #fff;
+}
+
+a.text_line {
+    margin-bottom: 5px!important;
+}
+
+.footer_widget_section{
+	padding: 60px 0 60px;
+	background: #F4F1EB;
+}
+
+.footer_widget_section h4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #333;
+    max-width: 190px;
+}
+
+.widget_logo img {
+    max-width: 65%;
+}
+
+.text_us {
+    position: relative;
+    border-bottom: 3px solid #3333331a;
+    width: 65px;
+    font-size: 14px;
+}
+
+
+
+ .text_line::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #333;
+    bottom: -3px;
+    transition: .5s;
+    opacity: 0;
+}
+
+.text_us:hover .text_line::before{
+	width: 100%;
+	opacity: 1;
+}
+
+.footer_widget_section p, .footer_widget_section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    max-width: 228px;
+}
+
+form {
+    position: relative;
+}
+
+.envelop_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+i.fa.fa-envelope-o {
+    font-size: 23px;
+    color: #333!important;
+    font-weight: 300;
+}
+
+.footer_widget_section input.form-control {
+    border-bottom: 2px solid #333;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    background: transparent;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer_widget_section .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #8bbafe;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(13,110,253,.25);
+}
+
+.footer_widget_section input.form-control:focus{
+	background: none;
+	border-bottom: 2px solid #333;
+}
+
+.widget_social .fa{
+	font-size: 24px;
+}
+
+.widget_social .nav-link {
+    padding: 6px 10px;
+    margin-top: 10px;
+}
+
+.widget_texts h5{
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: #333;
+}
+
+footer{
+	padding: 40px 0;
+	background: #F4F1EB;
+}
+
+footer p{
+	font-size: 14px;
+	margin-top: 12px;
+	color: #333;
+}
+
+
+
+
+.isStuck{
+    left:0px;
+    width:100%;
+     background: #f3f0eb!important;
+     border-bottom: 1px solid #333;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  margin-top: 0px;
+  position: relative;
+  z-index: 15;
+ 
+
+}
+
+
+
+
+
