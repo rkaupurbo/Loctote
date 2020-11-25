@@ -171,6 +171,29 @@ header .form-control:hover{
     position: relative;
 }
 
+.pic_hvr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+.pic_nor{
+	opacity: 1;
+	transition: .5s;
+}
+
+.prohover:hover .pic_hvr{
+	opacity: 1;
+}
+
+.prohover:hover .pic_nor{
+	opacity: 0;
+}
+
+
+
 .sale {
     display: inline-block;
     background: #333;
