@@ -108,7 +108,7 @@ header .form-control:hover{
     width: 0%;
     height: 2px;
     background: #333;
-    bottom: 5px;
+    bottom: 0px;
     left: -2px;
     transition-duration: .4s;
     opacity: 0;
@@ -116,7 +116,7 @@ header .form-control:hover{
 }
 
 .u-lin li:hover .nav-link:before{
-    width: 76%;
+    width: 75%;
     opacity: 1;
     
 }
@@ -144,6 +144,14 @@ header .form-control:hover{
     background-attachment: fixed;
     padding: 200px 0;
     background-blend-mode: overlay;
+    position: relative;
+}
+.banner_section #particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .banner_section h1{
